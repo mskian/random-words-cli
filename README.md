@@ -32,7 +32,7 @@ export RANDOMWORDS_API_URL=https://api.example.com/words
 - Unset the Global Variable
 
 ```sh
-unset RANDOMWORDS_API_URL=https://api.example.com/words
+unset RANDOMWORDS_API_URL
 ```
 
 - Test the CLI
