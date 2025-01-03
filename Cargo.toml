@@ -1,0 +1,18 @@
+[package]
+name = "randomwords"
+version = "0.0.1"
+edition = "2021"
+authors = ["Santhosh Veer <me@santhoshveer.com>"]
+description = "Fetches a random word with its definition and pronunciation."
+repository = "https://github.com/mskian/random-words-cli"
+homepage = "https://github.com/mskian/random-words-cli"
+readme = "README.md"
+license = "MIT"
+keywords = ["words", "randomwords"]
+
+[dependencies]
+clap = { version = "4.5.23" }
+dotenvy = "0.15.7"
+reqwest = { version = "0.12.12", features = ["json"] }
+serde = { version = "1.0.217", features = ["derive"] }
+tokio = { version = "1.42.0", features = ["full", "macros"] }
